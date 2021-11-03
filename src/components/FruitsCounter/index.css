@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+}
+
+.fruit-container {
+  height: 90%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.heading {
+  font-size: 45px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+
+  color: #000000;
+}
+
+.count {
+  font-size: 45px;
+  font-family: 'Roboto';
+  color: #ffd569;
+}
+
+.images {
+  display: flex;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 400px;
+
+  margin: 25px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  height: 35px;
+  width: 100px;
+}
